@@ -16,12 +16,10 @@ const goldText = document.querySelector("#goldText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
-const locations = [];
-const cat = {
-    name: "Whiskers",
-    "Number of legs": 4,
-}
-console.log(cat)
+
+const locations = [{
+        name: "town square"
+    }];
 // initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
